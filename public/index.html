@@ -13,7 +13,7 @@
     <div class="container">
         <h1>Expense Tracker App</h1>
         <hr>
-        <form method="get" id="userForm" onsubmit="addExpense(event)">
+        <form id="userForm" onsubmit="addExpense(event)">
             <div>
                 <label for="Expenseamount" class="form-label">Expense Amount</label>
                 <div class="input-group">
@@ -34,7 +34,8 @@
         </form>
         <ul class="list-group"></ul>
     </div>
-    <script src="script.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
